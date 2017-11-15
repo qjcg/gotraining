@@ -1,8 +1,10 @@
 Hey John!
 
-Okay so I'm assuming you know the materials are at github.com/ardanlabs/gotraining/topics/web
+Okay so I'm assuming you know the materials are at
+github.com/ardanlabs/gotraining/topics/web
 
-For tech setup I just have them go get github.com/ardanlabs/gotraining and use whatever editor they like. I usually recommend VS Code with the Go plugin.
+For tech setup I just have them go get github.com/ardanlabs/gotraining and use
+whatever editor they like. I usually recommend VS Code with the Go plugin.
 
 For a 1 day class I try to cover these sections:
 
