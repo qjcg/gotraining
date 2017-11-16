@@ -74,12 +74,12 @@ question of versioning an API.
 
 [Web APIs](../../web/apis/README.md)
 
-## Consuming HTTP APIs
+## TLS
 
-What good is having an API if we can’t consume it? We’ll learn how to use Go to
-speak with APIs, marshal & unmarshal data, set request headers, and more.
+Sending sensitive data in plain text is a bad idea! Learn about securing your
+application using TLS.
 
-[Consuming APIs](../../web/consuming/README.md)
+[TLS](../../web/tls/README.md)
 
 ## Authentication
 
@@ -88,12 +88,17 @@ apps.
 
 [Authentication](../../web/auth/README.md)
 
-## TLS
 
-Sending sensitive data in plain text is a bad idea! Learn about securing your
-application using TLS.
 
-[TLS](../../web/tls/README.md)
+<!-- MAYBE, TIME PERMITTING?
+
+## Consuming HTTP APIs
+
+What good is having an API if we can’t consume it? We’ll learn how to use Go to
+speak with APIs, marshal & unmarshal data, set request headers, and more.
+
+[Consuming APIs](../../web/consuming/README.md)
+
 
 ## Shutdown
 
@@ -102,7 +107,12 @@ shut them down? Don't rudely interrupt anyone; shut them down gracefully!
 
 [Shutdown](../../web/shutdown/README.md)
 
-<!-- NOT BEING COVERED!
+-->
+
+
+
+
+<!-- NOT COVERED
 ## Sessions and Cookies
 
 Managing sessions and cookies is an important part of every web application.

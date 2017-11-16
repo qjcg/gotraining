@@ -12,9 +12,9 @@ Learn the basics of using and applying middleware.
 
 https://golang.org/pkg/net/http/  
 https://golang.org/doc/articles/wiki/  
-github.com/urfave/negroni  
-github.com/justinas/alice  
-github.com/gorilla/handlers  
+https://github.com/urfave/negroni  
+https://github.com/justinas/alice  
+https://github.com/gorilla/handlers  
 
 ## Code Review
 
@@ -27,6 +27,10 @@ Passing data with context: [Code](example4/main.go) | [Test](example4/main_test.
 
 ### Exercise 1
 
-Take the Negroni code from example 2 and extend the code by adding a new middleware handler to validate authentication. This call must happen before processing anything else. If authentication fails return a 500 and cancel the processing of the request. If authentication succeeds finish processing the rest of the handlers. Use a query string to cause authentication to succeed or fail.
+Take the Negroni code from example 2 and extend the code by adding a new
+middleware handler to validate authentication. This call must happen before
+processing anything else. If authentication fails return a 500 and cancel the
+processing of the request. If authentication succeeds finish processing the rest
+of the handlers. Use a query string to cause authentication to succeed or fail.
 ___
 All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).

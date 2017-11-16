@@ -12,9 +12,9 @@ Learn the basics of using some of the more popular routers and routing support.
 
 https://golang.org/pkg/net/http/  
 https://golang.org/doc/articles/wiki/  
-github.com/gorilla/pat  
-github.com/julienschmidt/httprouter  
-github.com/labstack/echo  
+https://github.com/gorilla/pat  
+https://github.com/julienschmidt/httprouter  
+https://github.com/labstack/echo  
 
 ## Code Review
 
@@ -26,6 +26,10 @@ Echo router: [Code](example3/main.go) | [Test](example3/main_test.go)
 
 ### Exercise 1
 
-Take the CRUD code from example 1 (Pat) and extend the code by adding a `PUT` and `DELETE` route. Make sure the routes for both calls ask for the `id` of the customer. Write two new handler functions and bind them into the service so they can be processed. Finally add tests to validate the new routes are working. For both calls redirect the user back to the index page.
+Take the CRUD code from example 1 (Pat) and extend the code by adding a `PUT`
+and `DELETE` route. Make sure the routes for both calls ask for the `id` of the
+customer. Write two new handler functions and bind them into the service so they
+can be processed. Finally add tests to validate the new routes are working. For
+both calls redirect the user back to the index page.
 ___
 All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).

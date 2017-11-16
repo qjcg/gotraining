@@ -11,15 +11,15 @@ For a 1 day class I try to cover these sections:
     basics 
         cover the types in the readme except http.HandlerFunc.
         cover all 6 exercises. The last one is where it gets interesting and you have a "wow factor"
-        have them do the exercise
+        EXERCISE
     testing
-        do the exercise
+        EXERCISE
     posts 
         Skip the file handler part and the exercise. Just showing them some cool stuff here
     muxers
         I only show gorilla/pat. IMO it has the easiest API for beginners to use
     templates
-        skip the exercise here too
+        SKIP EXERCISE
     serializers
         just show the JSON parts. 
         Can skip the custom json marshaler if you're short on time

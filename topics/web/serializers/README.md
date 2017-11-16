@@ -18,10 +18,12 @@ JSON and net/http: [Code](example5/main.go)
 XML Encoding: [Code](example6/main.go) | [Test](example6/main_test.go)  
 MarshalXML Interface: [Code](example7/main.go) | [Test](example7/main_test.go)  
 
+<!-- NOT RUNNING
 ## Exercises
 
 ### Exercise 1
 
 TBD
+-->
 ___
 All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).
